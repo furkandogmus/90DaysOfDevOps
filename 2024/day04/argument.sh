@@ -3,7 +3,7 @@
 if [ $# -eq 0 ]
    then
 	printf "Error"
-	return 1
+	exit 1
 fi
 
 
