@@ -1,0 +1,22 @@
+Basic Linux Commands:
+
+1- pwd: current directory
+
+2- ls: list the items on the current directory
+2.1 ls -alh: list all files and directory with extra information as permissions and size of the file.
+
+3- mkdir: create directory
+3.1 mkdir -p 1/2/3/4: recursive folder creation (I learnt it today. This is an interesting info. I like it :) )
+3.2 mkdir .folder: hidden folder create
+3.3 mkdir A B C D: create all directories in the directory.
+
+4. cd: change the current directory
+4.1 cd ~ : go to the home directory
+4.2 cd - : go to the last working directory *
+
+Note: You can use regex and/or grep function for searching file/directory or editing some files.
+
+ls *.txt: get all txt files.
+ls -alh | grep md: get all files contains md in its name.
+ 
+

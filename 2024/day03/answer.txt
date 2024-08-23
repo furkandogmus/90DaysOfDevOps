@@ -1,0 +1,18 @@
+1. cat file_name: read the file. Example: cat answer.txt
+2. chmod or chown change the access permission of files. Example: chmod +x script.sh Get executable permission for script.sh file.
+3. history
+4. rm -rf / :)
+5. touch fruits.txt && cat fruits.txt
+6. echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" >> devops.txt 
+7. head devops.txt -n 3
+8. tail devops.txt -n 3
+9. touch Colors.txt && cat Colors.txt
+10. echo -e "Red\nPink\nWhite\nBlack\nBlue\nOrange\nPurple\nGrey" >> Colors.txt
+11. diff Colors.txt devops.txt
+
+
+echo -e "it is a \nnew line command."
+
+echo "Vim'e giris yapilmis ama vimsiz de yapabiliyoruz ki bunlari :)"
+
+echo "Vim'de insert yapmak icin i tusuna basmaniz yeterli. Daha sonrasinda kaydetmek istiyorsaniz excape tusuna basip :wq diyebilirsiniz. Ama eger kaydetmeden cikmak istiyorsaniz :q! komutunu kullanmalisiniz."

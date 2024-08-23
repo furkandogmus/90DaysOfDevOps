@@ -1,0 +1,20 @@
+What is devops?
+
+DevOps combines development (Dev) and operations (Ops) to increase the efficiency, speed, and security of software development and delivery compared to traditional processes.
+
+
+Automation: Automation is the application of technology, programs, robotics or processes to achieve outcomes with minimal human input.
+
+Scaling: A system is considered scalable when it doesn’t need to be redesigned to maintain effective performance during or after a steep increase in workload. The workload could refer to simultaneous users, storage capacity, the maximum number of transactions handled, or anything else that pushes the system past its original capacity.
+
+There are two scaling operations: 
+1- Vertical Scaling (Scaling Up)
+2- Horizontal Scaling (Scaling Out)
+
+Infrastructure: IT infrastructure is made up of the usual hardware and software components: facilities, data centers, servers, networking hardware desktop computers and enterprise application software solutions.
+
+Why Devops is Important?
+
+While a DevOps transformation requires an overhaul of business structures and processes, it’s well worth the effort. In our 2020 DevOps Trends survey, 99 percent of respondents said that DevOps had a positive impact on their organization. 
+
+Another DevOps study, DORA’s State of DevOps 2019, found that elite practitioners release 208 times more frequently and 106 times faster than low-performing teams. And it’s not just speed to market, DevOps yields improved quality, with elite teams boasting a change failure rate seven times lower compared to low-performing teams.

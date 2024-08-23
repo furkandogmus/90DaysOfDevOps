@@ -1,0 +1,7 @@
+what is Shell Scripting for DevOps?
+I think shell scripting is the first step of DevOps Automation. If you want to automate something from zero, firstly you must know shell scripting then system service etc. So, a devops engineer must learn shell scripting.
+
+What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+It depends. There is some difference btw bash and sh. sh can be usable on any shell but not bash. sh doesnt support  history command. sh does not support job control. So you cant execute a binary on background.
+
+
