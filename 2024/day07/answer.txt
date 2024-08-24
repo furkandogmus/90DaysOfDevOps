@@ -1,0 +1,47 @@
+systemctl status a.service
+systemctl enable a.service
+systemctl disable a.service
+systemctl mask a.service
+systemctl unmask a.service
+systemctl start a.service
+systemctl stop a.service
+journalctl -u servicename
+
+/etc/systemd/system/a.service
+
+service dosyalari burada tutuluyor.
+/var/log'a istersen arada log dosyalarini koyabilirsin.
+
+cok bi numarasi yok bu servis isinin.
+[Unit]
+[Service]
+[Install]
+
+diye uc kisimdan olusuyor.
+[Unit]
+kisminda Description After StartLimitIntervalSec StartLimitBurst ekleyebiliriz.
+StartLimitBurst hata durumunda en fazla kac defa calistirilmayi deneyecek onu belirliyor. After network.target yapiyolar genelde :D . servislerden sonra da calistir diyebiliriz.
+
+[Service]
+Type
+Restart
+RestartSec
+User
+ExecStart
+
+gibi attributelari var.
+
+[Install]
+WantedBy multi-user.target oluyor genelde ama bakmak lazim servis yazilacagi zaman.
+
+
+
+
+
+
+Package managerlar yum dnf rpm apt-get apt gibi seyler olabiliyor. repolarin hepsi sistemde yuklu olmadigindan bazi dosyalari yuklerken repoyu kaydetmemiz gerekiyor.  A package is essentially an archive file containing the binary executable, configuration file, and sometimes information about the dependencies.
+Demisler.
+
+Kendi paketimi yazmadim henuz ama neden olmasin musait bir zamanda bakacagim.
+
+

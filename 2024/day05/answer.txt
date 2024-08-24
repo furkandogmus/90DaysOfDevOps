@@ -1,0 +1,23 @@
+mkdir day{1..90}
+90 tane dosya olusturuyor. Ancak bunu scriptte yazmaya calisinca hatayla karsilasiyoruz. Tek bir dosya olusuyor ve adi day{1..90}. Bu sorunu eval ya da for loop ile cozebilirdik. Eval kullanmayi tercih ettim. eval mkdir $1{$2..$3} ile cozume ulasiyoruz. Aslinda for loop kullanirken de eval kullanmak zorunda kaldik. for i in $(eval echo {$first.. $end}); then
+do 
+mkdir name$i
+done
+
+
+eval onemli abi. :)
+
+Ikinci kisimda can alici nokta basename oldu. tar vs. kolay da basename'i bilmeyen adam bu ikinci taski yapamaz bence. kisaca bir pathte yer alan dosyanin sadece son kismini yani asil ismini almamiza yariyor. echo $(basename /furkan/90DaysOfDevops)  dersek output olarak 90DaysOfDevops donecek.
+
+cronjob mevzusu basit
+crontab -e ile duzenleyebiliyoruz. * li gosterimi var. Arada bakarsin cok muhim degil sirasiyla dakika saat gun ay ve ve haftanin gunune tekabul ediyor. haftanin gunu 0 Sunday yani pazar devami da ona gore.
+
+
+#TODO User Management onemli mi Resul abiye sor.
+sudo useradd furkan1;
+sudo useradd furkan2;
+
+/etc/passwd ile kullanicilari ve izinlerini gorebiliyoruz.
+
+
+

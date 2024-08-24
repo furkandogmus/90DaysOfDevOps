@@ -1,0 +1,6 @@
+chown owner bilgisini degistirmeye
+chgrp group bilgisini degistirmeye
+chmod other bilgisini degistirmeye yariyo.
+chmod +x deneme.sh deneme.sh'a herkesin artik execute yetkisi var.
+getfacl README.md dosyanin yetkilerini gosteriyo.
+setfacl da ayarlar yapabiliyosun. Access Control List acilimi.
