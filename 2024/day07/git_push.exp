@@ -1,0 +1,23 @@
+#!/usr/bin/expect -f
+
+# Set timeout for the script
+set timeout -1
+
+# Access the environment variables
+set username $env(GIT_USERNAME)
+set password $env(GIT_PASSWORD)
+
+# Start the git push command
+spawn git push
+
+# Expect the Username prompt
+expect "Username for 'https://github.com':"
+send "$username\r"
+
+# Expect the Password prompt
+expect "Password for 'https://$username@github.com':"
+send "$password\r"
+
+# Wait for the process to complete
+expect eof
+
