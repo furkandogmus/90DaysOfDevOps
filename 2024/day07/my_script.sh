@@ -1,9 +1,9 @@
 #!/bin/bash
-cat <<EOF >> ~/90DaysOfDevOps/daily.log
-$(date) tarihine kadar $(ls -R /home/furkan/90DaysOfDevOps/2024 | grep sh | wc -l) tane script yazdin.
+/usr/bin/cat <<EOF >> /home/furkan/90DaysOfDevOps/daily.log
+$(/bin/date) tarihine kadar $(/bin/ls -R /home/furkan/90DaysOfDevOps/2024 | /bin/grep sh | /usr/bin/wc -l) tane script yazdin.
 EOF
-cd ~/90DaysOfDevOps/
-git add ~/90DaysOfDevOps/daily.log
-git commit -m "Daily log added."
-./git_push.exp
+cd /home/furkan/90DaysOfDevOps/
+/usr/bin/git add /home/furkan/90DaysOfDevOps/daily.log
+/usr/bin/git commit -m "Daily log added."
+/home/furkan/90DaysOfDevOps/2024/day07/git_push.exp
 

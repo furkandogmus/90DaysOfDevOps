@@ -1,0 +1,22 @@
+? : tek bir karakter karsiligi vardir. Regex'te . yerine geciyor. ls ab?.sh dedigimizde abc.sh ab9.sh falan hepsini kapsar.
+* bundan sonra her sey gelebilir demek gibi bi sey. ls *.sh dersen mesela sonu shla biten her seyi listeler.
+[]  burada genelde range veriyoruz. [a-z].sh kucuk ve tek harfli butun sh dosyalarini bulur.
+{} nesne ya da wildcard verebiliyoruz. Misal {1..9} dersek birden 9'a kadar olan seyleri alir. Ama ls -alh {*.sh,*.txt} dersek txt ve sh uzantili butun dosyalari gosterir.
+[!] logical not anlamina geliyor. oyle olmayan seyleri seciyor.
+
+
+find [dizin] [arama_kriterleri] [işlemler]
+find . -type f -name "*.txt" #txt icerenleri bulur.
+find . -type f ! -name "*.txt"  #txt icermeyenleri bulur.
+find . -type f -name "*.bak" -exec rm {} \;
+
+grep [seçenekler] [kalıp] [dosya]
+
+grep "aranan_kelime" dosya.txt
+grep -i "aranan_kelime" dosya.txt #buyuk kucuk harf duyarsiz
+grep "aranan_kelime" *.txt #Birden fazla dosyada aramam
+grep -v "aranan_kelime" dosya.txt #aranan kelimenin olmadigi satirlar!!!
+grep -n "aranan_kelime" dosya.txt #aranan kelimenin bulundugu satirlar.
+grep -r "aranan_kelime" /path/to/directory/ #directory icindeki her yerde arar!
+grep -c "aranan_kelime" dosya.txt #eslesen satir sayisini gosterir.
+
