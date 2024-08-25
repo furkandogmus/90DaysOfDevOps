@@ -1,0 +1,4 @@
+xargs komutu guzel bisiye benziyor.
+xargs -I {} sh -c "{}" 
+formatinda kullanabiliyoruz.
+ilginc kullanimlarini gormek denemek lazim.
