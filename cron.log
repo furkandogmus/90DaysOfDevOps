@@ -818,3 +818,17 @@ send: spawn id exp3 not open
     while executing
 "send "$username\r""
     (file "/home/furkan/90DaysOfDevOps/2024/day07/git_push.exp" line 15)
+[master 87f33cd] Sal 05 Kas 2024 23:00:01 +03 is uploaded!
+ 2 files changed, 9 insertions(+)
+spawn git push
+Username for 'https://github.com': furkandogmus
+Password for 'https://furkandogmus@github.com': 
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 998 bytes | 998.00 KiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/6)        remote: Resolving deltas:  16% (1/6)        remote: Resolving deltas:  33% (2/6)        remote: Resolving deltas:  50% (3/6)        remote: Resolving deltas:  66% (4/6)        remote: Resolving deltas:  83% (5/6)        remote: Resolving deltas: 100% (6/6)        remote: Resolving deltas: 100% (6/6), completed with 3 local objects.        
+To https://github.com/furkandogmus/90DaysOfDevOps.git
+   47294f1..87f33cd  master -> master
