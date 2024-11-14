@@ -868,3 +868,11 @@ send: spawn id exp3 not open
     while executing
 "send "$username\r""
     (file "/home/furkan/90DaysOfDevOps/2024/day07/git_push.exp" line 15)
+[master 3cd882b] Çrş 13 Kas 2024 23:00:01 +03 is uploaded!
+ 2 files changed, 9 insertions(+)
+spawn git push
+fatal: unable to access 'https://github.com/furkandogmus/90DaysOfDevOps.git/': Could not resolve host: github.com
+send: spawn id exp3 not open
+    while executing
+"send "$username\r""
+    (file "/home/furkan/90DaysOfDevOps/2024/day07/git_push.exp" line 15)
